@@ -1,5 +1,5 @@
-const invitados = ["Ana", "Carlos", "Cecilia", "Daniel", "Diana", "Eduardo"];
-//const invitados = ["Ana", "Bruno", "Carlos", "Daniel", "Esteban", "Fernando"];
+//const invitados = ["Ana", "Carlos", "Cecilia", "Daniel", "Diana", "Eduardo"];
+const invitados = ["Ana", "Bruno", "Carlos", "Daniel", "Esteban", "Fernando"];
 
 function encontrarPareja(arr) {
     let inicio = 0;
@@ -18,7 +18,7 @@ function encontrarPareja(arr) {
         siguiente++;
     }
 
-    return null; // Si no se encuentra ningún par
+    return 'Nadie se va a sentar juntos, todos se sentarán solos'; // Si no se encuentra ningún par
 }
 
 console.log(encontrarPareja(invitados));
